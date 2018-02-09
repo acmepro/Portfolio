@@ -1,0 +1,90 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  #home{
+    height:500px;
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/hero-bg-tablet.jpg);
+  } 
+
+  .home-main-text {
+    margin-top: 150px;
+    margin-top: 150px;
+  }
+
+  .form-control{
+    width: 80%;
+  }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #home{
+    height: auto;
+  }
+
+  .home-main-text {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .media-body{
+    margin-bottom: 50px;
+  }
+
+  .form-control{
+    width: 80%;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  #home{
+    height: auto;
+  }
+
+  .home-main-text {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .home-main-text h1{
+  	font-size:24px;
+  }
+
+  .typer{
+  	font-size:24px; 
+  }
+
+  #about{
+    height: auto;
+  }
+
+  #services{
+    height: auto;
+  }
+
+  #contact{
+    height: auto;
+  }
+
+  .form-control{
+    width: 100%;
+  }
+  
+}
+
+

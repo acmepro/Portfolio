@@ -1,0 +1,265 @@
+/*======================
+        GLOBAL
+========================*/
+
+body {
+    background-color: #f0f1f5;
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.button-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    color: #000000;
+    font-size: 14px;
+    background: transparent;
+    padding: 10px 25px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    cursor: default;
+}
+
+
+.button-button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    color: #000000;
+    font-size: 14px;
+    background: transparent;
+    padding: 10px 25px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.button-button:hover {
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: default;
+}
+
+.button-btn:hover {
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: default;
+}
+
+.heading-first-letter {
+    font-size: 4em;
+    color: #000000;
+    display: inline-block;
+    position: relative;
+}
+
+.rest-heading {
+    font-size: 2em;
+    display: inline-block;
+    color: #424242;
+}
+
+.typer {
+    font-weight: 700;
+}
+
+/*======================
+    NAVIGATION BAR
+========================*/
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+    background-color: #cecfcf;
+}
+
+.navbar-collapse {
+    text-align: center;
+    border: 0;
+}
+
+.navbar-default .navbar-nav > .active > a{
+    background-color: #aeafaf;
+    color: #fff;
+}
+
+/*======================
+    HOME SECTION
+========================*/
+
+#home {
+    height: 650px;
+    background-image:url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+
+}
+
+.home-main-text {
+    margin-top: 250px;
+}
+
+.home-main-para {
+    font-size: 18px;
+    color: #000;
+}
+
+/*======================
+      ABOUT SECTION
+========================*/
+
+#about {
+    height: 500px;
+}
+
+.about-text {
+    margin-top: 50px;
+}
+
+/*======================
+      SERVICES SECTION
+========================*/
+
+#services {
+    height: 500px;
+    background-color: #242831;
+}
+
+.services-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.media-heading {
+    color: #000;
+}
+
+.media-img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.media-body p {
+    color: #f0f1f5;
+}
+
+/*======================
+      SKILLS SECTION
+========================*/
+
+#skills {
+    margin-bottom: 100px;
+}
+
+.progress {
+    background-color: #d3d3d3;
+    border-radius: 0;
+}
+
+.progress-bar {
+    background-color: #242831;
+}
+
+
+/*======================
+       CONTACT SECTION
+========================*/
+
+#contact {
+    height: 250px;
+    background-color: #242831;
+}
+
+.contact-box {
+    margin-top: 50px;
+}
+
+
+.contact-box p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f0f1f5;
+}
+
+.contact-box > button {
+    margin: 10px;
+}
+
+/*======================
+      FORM SECTION
+========================*/
+
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #424242;
+}
+
+.form-control {
+    height: 50px;
+    border: 0;
+    border: 2px solid #ccc;
+    border-radius: 0;
+    background-color: #fcf5eb;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+/*======================
+       FOOTER
+========================*/
+
+.footer {
+    background-color: #292c2f;
+    width: 100%;
+}
+
+.copyright p {
+    color: #f0f1f5;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-media {
+    padding-top: 10px;
+}
+
+.social-media a {
+    display: inline;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
