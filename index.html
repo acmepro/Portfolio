@@ -8,68 +8,61 @@
     <title>Portfolio Jaseel</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/query.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-                <a class="navbar-brand" href="#home"></a>
+    <header>
+        <div id="nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#skills">Skils</a></li>
-                    <li><a href="#form">Contact</a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
         </div>
-    </nav>
 
-    <section id="home">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-8">
-                    <div class="home-main-text">
-                        <div class="typer-text">
-                            <h1>I'M <br>
-                            <span class="typer" id="main" data-words="JASEEL.,A FRONT-END DEVELOPER,A UI DEVELOPER." data-colors="#000" data-delay="100" data-deleteDelay="1000"></span>
-                            <span class="cursor" data-owner="main"></span>
-                        </h1>
+        <div class="menu">
+            <span onclick="openNav()">&#9776;</span>
+        </div>
+
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8">
+                        <div class="home-main-text">
+                            <div class="typer-text">
+                                <h1>I'M <br>
+                                    <span class="typer" id="main" data-words="JASEEL.,A FRONT-END DEVELOPER,A UI DEVELOPER." data-colors="#000" data-delay="100" data-deleteDelay="1000"></span>
+                                    <span class="cursor" data-owner="main"></span>
+                                </h1>
+                            </div>
+                            <p class="home-main-para">
+                                Frontend developer from India. I have a passion for web design and love to create for web and mobile devices.I work for a living, But i live to create some cool stuffs.
+                            </p>
+                            <a href="#about" class="button-btn" role="button">KNOW MORE</a>
                         </div>
-                        <p class="home-main-para">
-                            Frontend developer from India. I have a passion for web design and love to create for web and mobile devices.I work for a living, But i live to create some cool stuffs.
-                        </p>
-                        <button class="button-btn"><a href="">KNOW MORE</a></button>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </header>
 
     <section id="about">
         <div class="container">
             <div class="row">
+                <div class="custom-heading">
                     <h2>
                         <span class="heading-first-letter" data-first-letter="A">
-            A</span>
+                        A</span>
                         <span class="rest-heading">
-            bout me</span>
+                        bout me</span>
                     </h2>
-                <div class="col-md-8 col-sm-8">
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="about-text">
                         <p>Offering creative design solutions to solve business problems is what I do best. I write in HTML, CSS and Javascript.I like working on scalability, performance, reusability and great user experiences. <br><br>As a developer, I write code that conforms to industry standards and semantic best practices. Iam able to transform static artwork into pixel perfect, interactive and fully functional interfaces.</p>
                     </div>
@@ -81,16 +74,18 @@
     <section id="services">
         <div class="container">
             <div class="row">
-                <h2>
-                    <span class="heading-first-letter" data-first-letter="S">
+                <div class="custom-heading">
+                    <h2>
+                        <span class="heading-first-letter" data-first-letter="S">
             S</span>
-                    <span class="rest-heading">
+                        <span class="rest-heading">
             ervices</span>
-                </h2>
-                <div class="col-md-6 col-sm-6">
-                    <div class="services-content">
+                    </h2>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="services-content box-1">
                         <div class="media-left">
-                            <img class="media-img" src="img/icon-1.png">
+                            <img class="media-img" src="img/icon-1.png" alt="coding-logo">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">Code</h3>
@@ -99,10 +94,10 @@
                     </div>
 
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="services-content">
+                <div class="col-md-6 col-sm-12">
+                    <div class="services-content box-2">
                         <div class="media-left">
-                            <img class="media-img" src="img/icon-2.png">
+                            <img class="media-img" src="img/icon-2.png" alt="bulb-logo">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">Idea</h3>
@@ -117,12 +112,14 @@
     <section id="skills">
         <div class="container">
             <div class="row">
-                <h2>
-                    <span class="heading-first-letter" data-first-letter="S">
+                <div class="custom-heading">
+                    <h2>
+                        <span class="heading-first-letter" data-first-letter="S">
             S</span>
-                    <span class="rest-heading">
+                        <span class="rest-heading">
             kills</span>
-                </h2>
+                    </h2>
+                </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="skills-left">
                         <h4>HTML</h4>
@@ -172,9 +169,10 @@
         <div class="container">
             <div class="row">
                 <div class="contact-box text-center">
-                    <h2>Want to work together or hire me ?</h2>
+                    <h1>Want to work together or hire me ?</h1>
                     <p>I'm currently accepting new projects and would like to hear about yours. <br> Please take a few minutes to tell me about it.</p>
-                    <button class="button-btn"><a href="">CONTACT</a></button> <button class="button-btn"><a href="">RESUME</a></button>
+                    <a href="#form" class="button-btn" role="button">CONTACT</a>
+                    <a href="https://drive.google.com/file/d/101t0ziFizChTVyu8CKutq5iOrI7d18g-/view?usp=sharing" target="_blank" class="button-btn" role="button">RESUME</a>
                 </div>
             </div>
         </div>
@@ -183,111 +181,99 @@
 
     <section id="form">
         <div class="container">
-            <h2>
-                <span class="heading-first-letter" data-first-letter="C">
-            C</span>
-                <span class="rest-heading">
-            ontact</span>
-            </h2>
-            <form class="from text-center">
-                <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="E-mail (Required)">
+            <div class="custom-heading">
+                <h2>
+                    <span class="heading-first-letter" data-first-letter="C">C</span>
+                    <span class="rest-heading">ontact</span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <form class="from text-center">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="E-mail (Required)">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Full Name (Required)">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="subject" placeholder="Your Message" style="height:150px"></textarea>
+                        </div>
+                        <input class="button-btn" type="submit" value="SUBMIT">
+                    </form>
                 </div>
-                <div class="form-group">
-                    <input type="name" class="form-control" id="name" placeholder="Full Name (Required)">
+                <div class="col-md-6 col-sm-6">
+                    <div class="footer">
+                        <div class="map" id="googleMap"></div>
+                        <div class="social-media text-center">
+                            <a href="https://www.facebook.com/mohammedjaseelnalakath"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/jaseel_94"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/jaseelnalakath"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/mohammedjaseel"><i class="fa fa-github"></i></a>
+                        </div>
+                        <div class="mail text-center">
+                            <p><a href="mailto:jaseelnalakath@outlook.com?Subject=Hi," target="_top">jaseelnalakath@outlook.com</a></p>
+                        </div>
+                        <div class="copyright text-center">
+                            <p>Designed by Jaseel.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <textarea class="form-control" rows="3" id="comment" textarea="Message" placeholder="Message"></textarea>
-                </div>
-                <button type="submit" class="button-button">SEND</button>
-            </form>
+
+            </div>
         </div>
     </section>
-
-    <footer class="footer">
-        <div class="social-media text-center">
-            <a href="https://www.facebook.com/mohammedjaseelnalakath"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/jaseel_94"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/jaseelnalakath"><i class="fa fa-linkedin"></i></a>
-            <a href="https://github.com/mohammedjaseel"><i class="fa fa-github"></i></a>
-        </div>
-        <div class="copyright text-center">
-            <p>Designed by Jaseel &copy;2018.</p>
-        </div>
-    </footer>
+    <button onclick="topFunction()" id="scrollup"><i class="fa fa-chevron-up"></i></button>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/typer.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/scrollreveal.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0wpDdx_FE-6HYvFwx2osOvCHiARhAD7I&callback=myMap"></script>
+
     <script>
-            window.sr = ScrollReveal();
-      sr.reveal('.nav', {
-          duration: 2000,
-          origin: 'right',
-          distance: '500px'
-      });
+        window.sr = ScrollReveal();
+        sr.reveal('.home-main-para', {
+            duration: 1500,
+            origin: 'right',
+            distance: '500px'
+        });
 
-      sr.reveal('.typer-text', {
-          duration: 1500,
-          origin: 'bottom',
-          distance: '500px'
-      });
+        sr.reveal('.custom-heading', {
+            duration: 1500,
+            origin: 'left',
+            distance: '500px',
+            scale: 0.1
+        });
 
-      sr.reveal('.home-main-para', {
-          duration: 2000,
-          origin: 'bottom',
-          distance: '500px'
-      });
+        sr.reveal('.contact-box h1', {
+            duration: 2000,
+            origin: 'left',
+            distance: '500px'
+        });
 
-      sr.reveal('.button-btn', {
-          duration: 2000,
-          origin: 'bottom',
-          distance: '400px'
-      });
+        sr.reveal('.contact-box p', {
+            duration: 2000,
+            origin: 'right',
+            distance: '500px'
+        });
 
-      sr.reveal('.about-text', {
-          duration: 2000,
-          origin: 'bottom',
-          distance: '500px'
-      });
+        sr.reveal('.box-1', {
+            duration: 1500,
+            origin: 'left',
+            distance: '500px',
+            scale: 0.1
+        });
 
-      sr.reveal('.media-left', {
-          duration: 2000,
-          origin: 'bottom',
-          distance: '250px'
-      });
-
-      sr.reveal('.media-body', {
-          duration: 2500,
-          origin: 'bottom',
-          distance: '250px'
-      });
-
-      sr.reveal('.skills-left h4', {
-          duration: 2000,
-          origin: 'bottom',
-          distance: '500px'
-      });
-
-      sr.reveal('.skills-right h4', {
-          duration: 2500,
-          origin: 'bottom',
-          distance: '500px'
-      });
-
-      sr.reveal('.contact-box h2', {
-          duration: 2000,
-          origin: 'bottom',
-          distance: '500px'
-      });
-
-      sr.reveal('.contact-box p', {
-          duration: 2500,
-          origin: 'bottom',
-          distance: '500px'
-      });
+        sr.reveal('.box-2', {
+            duration: 1500,
+            origin: 'right',
+            distance: '500px',
+            scale: 0.1
+        });
     </script>
+
 
 </body>
 
