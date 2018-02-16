@@ -6,7 +6,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
     #home {
-        height: 500px;
+        height: 100vh;
     }
 
     .home-main-text {
@@ -28,7 +28,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
     #home {
-        height: auto;
+        height: 100vh;
     }
 
     .home-main-text {
@@ -57,37 +57,32 @@
     }
 
     .heading-first-letter {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
 
     .rest-heading {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
 
     #home {
-        height: auto;
+        height: 100vh;
     }
 
     .home-main-text {
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 200px;
     }
 
     .home-main-text h1 {
-        font-size: 1.3em;
+        font-size: 1.6em;
     }
 
-    .typer {
-        font-size: 1.3em;
+    .typer h1 {
+        font-size: 1.6em;
     }
 
     #about {
-        height: auto;
-    }
-
-    .about-text {
-        margin: 0;
+        height: 100vh;
     }
 
     #services {
@@ -96,8 +91,21 @@
 
     .services-content {
         box-shadow: none;
+        margin: 20px 20px;
     }
 
+    #skills{
+      height: auto;
+    }
+
+    .progress{
+      height: 20px;
+    }
+
+    .progress .val {
+      line-height: 20px;
+      margin: 0 2px 0 0;
+    }
 
     .media-img {
         width: 80px;
