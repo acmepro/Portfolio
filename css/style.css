@@ -66,6 +66,9 @@ a {
     font-size: 1.25em;
 }
 
+.custom-heading{
+    margin-top: 10px;
+}
 
 .heading-first-letter {
     font-size: 4em;
