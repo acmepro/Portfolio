@@ -25,22 +25,19 @@ p {
 
 a {
     text-decoration: none;
-    color:#fff;
+    color:#000;
 }
-
-
-
 
 .button-btn {
     display: inline-block;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 5px;
-    color: #fff;
+    border-radius: 0;
+    color: #000;
     font-size: 0.875em;
-    background-color: #FF78BB;
+    background-color: transparent;
     padding: 10px 25px;
-    border:0;
+    border:2px solid #000;
     margin: 5px;
     text-decoration: none;
 
@@ -48,12 +45,11 @@ a {
 
 .button-btn:hover{
     text-decoration: none;
-    color:#fff;  
 }
 
 .button-btn:visited{
     text-decoration: none;
-    color:#fff;  
+    color:#000;  
 }
 
 #scrollup{
@@ -63,7 +59,7 @@ a {
     right: 30px;
     border:none;
     outline:none;
-    background-color:#FF78BB;
+    background-color:#333;
     color:#fff; 
     padding:15px;
     border-radius: 100px;
@@ -107,13 +103,17 @@ a {
 }
 
 .overlay{
-    height: 100%;
+    height: 100vh;
     width: 0;
     position: fixed;
     top: 0;
     right: 0;
     z-index:1;
-    background-color:rgba(255,255,255,0.9);
+    background: url(../img/overlay-bg.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -130,8 +130,10 @@ a {
     padding:10px;
     display: block;
     text-decoration: none;
-    font-size: 2.5em;
-    color:#7e7e7e;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 700;
+    color:#fff;
     transition: 0.3s; 
 
 }
@@ -140,7 +142,6 @@ a {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
-    color:#FF78BB;
 }
 
 .overlay .closebtn{
@@ -155,10 +156,11 @@ a {
     HOME SECTION
 ========================*/
 header{
-    background-image:url('../img/hero-bg.jpg');
+    background-image:url('../img/hero-bg.png');
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center; 
 }
 
 #home {
@@ -166,8 +168,8 @@ header{
 
 }
 
-.home-main-text {
-  margin-top:250px; 
+.home-main-text {   
+  margin-top:250px;
 }
 
 .home-main-para {
@@ -183,7 +185,7 @@ header{
 }
 
 .about-text {
-    margin: 50px 50px;
+    margin: 150px 50px;
 }
 
 /*======================
@@ -191,17 +193,19 @@ header{
 ========================*/
 
 #services {
+    background-image:url('../img/service-bg.png');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
     height: 100vh;
-    background-color: #ffffff;
     
 }
 
 .services-content {
     margin-top: 150px;
     margin-bottom: 25px;
-   -webkit-box-shadow: 10px 10px 5px 0px rgba(204,204,204,1);
-   -moz-box-shadow: 10px 10px 5px 0px rgba(204,204,204,1);
-    box-shadow: 10px 10px 5px 0px rgba(204,204,204,1);
+    color: #000;
 }
 
 .media-body{
@@ -230,7 +234,6 @@ header{
 
 .progress {
     height: 35px;
-    background-color: #d3d3d3;
     border-radius: 0;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
@@ -245,17 +248,20 @@ header{
 
 .progress-bar {
   text-align: left;
-  background-color: #FF78BB;
+  background-color: #dadada;
   transition-duration: 3s;
 }
-
 
 /*======================
        CONTACT SECTION
 ========================*/
 
 #contact {
-    background-color: #ffffff;
+    background-image:url('../img/contact-bg.png');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
     height: 240px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(204,204,204,1);
    -moz-box-shadow: 10px 10px 5px 0px rgba(204,204,204,1);
@@ -284,17 +290,16 @@ header{
 form {
     margin-top: 30px;
     margin-bottom: 30px;
-    color: #424242;
 }
 
 #form{
     height: 100vh;
+    background-color: #fff;
 }
 
 .form-control {
     height: 50px;
     border:0;
-    border-left: 4px solid #FF78BB;
     border-radius: 2px;
     width: 100%;
     margin: 0 auto;
@@ -310,13 +315,9 @@ form {
 
 .footer {
     margin-top: 30px;
-    background: #fff;
     color:#333333;
     padding:10px;
     height: 410px; 
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(204,204,204,1);
-   -moz-box-shadow: 10px 10px 5px 0px rgba(204,204,204,1);
-    box-shadow: 10px 10px 5px 0px rgba(204,204,204,1);
 }
 
 .map{
