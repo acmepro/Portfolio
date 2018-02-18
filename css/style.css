@@ -109,7 +109,7 @@ a {
     top: 0;
     right: 0;
     z-index:1;
-    background: url(../img/overlay-bg.png);
+    background: url(../img/overlay-bg.jpg);
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,7 +156,7 @@ a {
     HOME SECTION
 ========================*/
 header{
-    background-image:url('../img/hero-bg.png');
+    background-image:url('../img/hero-bg.jpg');
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,7 +193,7 @@ header{
 ========================*/
 
 #services {
-    background-image:url('../img/service-bg.png');
+    background-image:url('../img/service-bg.jpg');
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,8 +203,8 @@ header{
 }
 
 .services-content {
-    margin-top: 150px;
-    margin-bottom: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     color: #000;
 }
 
@@ -257,7 +257,7 @@ header{
 ========================*/
 
 #contact {
-    background-image:url('../img/contact-bg.png');
+    background-image:url('../img/contact-bg.jpg');
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
