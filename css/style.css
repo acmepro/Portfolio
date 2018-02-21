@@ -195,13 +195,12 @@ header{
 ========================*/
 
 #services {
+    height: 100vh;
     background-image:url('../img/service-bg.jpg');
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
-    height: 100vh;
-    
+    background-position: center;  
 }
 
 .services-content {
@@ -296,7 +295,6 @@ form {
 
 #form{
     height: 100vh;
-    background-color: #fff;
 }
 
 .form-control {
