@@ -1,27 +1,11 @@
 @media (max-width: 1024px) {
 
     #home {
-        height: 700px;
+        height: auto;
     }
 
-    .home-main-text {
-        margin-top: 300px;
-    }
-
-    #skills{
-        margin-bottom: 0;
-    }
-
-    .services-content{
-        margin-top:100px;
-    }
-
-}
-
-@media (min-width: 768px) {
-    
     #about {
-        height: 700px;
+        height: auto;
     }
 
     #services{
@@ -32,98 +16,257 @@
         height:auto;
     }
 
-} 
+}
 
-@media (min-width: 481px) and (max-width: 767px) {
-
+@media (min-width: 768px) and (max-width: 1023px) { 
+    
     #home {
-        height: 100vh;
+        height: auto;
     }
 
-    #about{
-        height: 600px;
+    .home-content{
+       margin-top: 100px;
+       padding:0;
+    }
+
+    .home-content h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .home-content h4 {
+        font-size: 1em;
+    }
+
+
+    #about {
+        height: auto;
+    }
+
+    .about-heading {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .about-heading h2 {
+        font-size: 3em;
+    }
+
+    .about-heading h4 {
+        font-size: 1.5em;
+    }
+    
+    .about-content {
+        margin: 0;
+    }
+
+    .about-content p{
+        line-height: 1.5;
+        margin-top: 40px;
+        font-size: 1.3em;
+        margin-bottom: 200px;
+    }
+
+    .contact{
+        height: 500px;
+    }
+
+    .contact-box {
+        margin-top: 350px;
+        margin-bottom: 100px;
+    }
+
+    .contact-box h2{
+        font-size: 3em;
+    }
+
+    .contact-box p{
+        font-size: 1.3em;
     }
 
     #services{
         height: auto;
     }
 
+    .services-heading {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .services-heading h2 {
+        font-size: 3em;
+    }
+
+    .services-heading h4 {
+        font-size: 1.5em;
+    }
+
+    .services-content{
+        margin-top: 20px;
+    }
+
     #skills{
-        height: auto;
+        height:auto;
     }
 
-    #form{
-        height: auto;
+    .skills-heading{
+        text-align: center;
     }
 
-    .home-main-text {
-        margin-top: 120px;
-        margin-bottom: 120px;
+    .skills-heading h2 {
+        font-size: 3em;
     }
 
-    .media-body {
-        margin-bottom: 50px;
+    .skills-heading h4 {
+        font-size: 1.5em;    
     }
 
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-    p {
+    .skills h4 {
         font-size: 1em;
+        margin-left:5px; 
     }
 
-    .heading-first-letter {
-        font-size: 2.3em;
+    .skills{
+        margin-top: 50px;
     }
 
-    .rest-heading {
-        font-size: 1.3em;
+    .form-control {
+        width: 80%;
+    }
+
+} 
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .button-primary{
+        text-align: center;
+        width:100%;
+    }
+
+    .button-default{
+        text-align: center;
+        width:100%;
     }
 
     #home {
-        height: 600px;
-    }
-
-    .home-main-text {
-        margin-top: 200px;
-    }
-
-    .home-main-text h1 {
-        font-size: 2em;
-    }
-
-    .typer h1 {
-        font-size: 2em;
-    }
-
-    #about {
-        height: 600px;
-    }
-
-    .about-text {
-        margin: 0;
-    }
-
-    #services {
         height: auto;
     }
 
-    .services-content {
-        box-shadow: none;
-        margin: 20px 20px;
+    .home-content{
+       margin-top: 100px;
+       padding:0;
+    }
+
+    .home-content h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .home-content h4 {
+        font-size: 1em;
+    }
+
+    #about{
+        height: auto;
+    }
+
+    .about-heading {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .about-heading h2 {
+        font-size: 3em;
+    }
+
+    .about-heading h4 {
+        font-size: 1em;
+    }
+    
+    .about-content {
+        margin: 0;
+    }
+
+    .about-content p{
+        line-height: 1.4;
+        margin-top: 40px;
+        font-size: 1.3em;
+        margin-bottom: 70px;
+    }
+
+    #services{
+        height: auto;
+    }
+
+    .services-heading {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .services-heading h2 {
+        font-size: 2em;
+    }
+
+    .services-heading h4 {
+        font-size: 1em;
+    }
+
+    .services-content{
+        margin-top: 20px;
+    }
+
+    .media-left{
+        display: block;
+        padding: 0;
+    }
+
+    .media-left img{
+        margin-left:260px;
+    }
+
+    .media-body{
+        text-align: center;
+    }
+
+    .media-body p{
+        padding: 10px;
+        font-size: 1.2em;
     }
 
     #skills{
-      height: auto;
+        height: auto;
+    }
+
+    .skills-heading{
+        text-align: center;
+    }
+
+    .skills-heading h2 {
+        font-size: 2em;
+    }
+
+    .skills-heading h4 {
+        font-size: 1em;    
+    }
+
+    .skills h4 {
+        font-size: 1em;
+        margin-left:5px; 
+    }
+
+    .skills{
+        margin-top: 50px;
     }
 
     .progress{
       height: 20px;
+      width: 100%;
     }
 
     .progress .val {
       line-height: 20px;
-      margin: 0 2px 0 0;
+      font-size: 0.8em;
+      margin: 0 1px 0 0;
     }
 
     .media-img {
@@ -140,11 +283,208 @@
     }
 
     .contact-box {
-        margin: 10px 10px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .contact-box h2{
+        font-size: 2em;
+    }
+
+    .contact-box p{
+        font-size: 1.3em;
     }
 
     .form-control {
         width: 100%;
     }
+
+    .form-heading h2 {
+        font-size: 2em;
+    }
+
+    .form-heading h4 {
+        font-size: 1em;    
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .menu{
+        font-size: 2em;
+        top: 10px;
+        right:10px;
+    }
+
+    .button-primary{
+        width:100%;
+    }
+
+    .button-default{
+        width:100%;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    .home-content{
+       margin-top: 100px;
+       padding:0;
+       text-align: center; 
+    }
+
+    .home-content h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .home-content h4 {
+        font-size: 1em;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    .about-heading {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .about-heading h2 {
+        font-size: 3em;
+    }
+
+    .about-heading h4 {
+        font-size: 1em;
+    }
+    
+    .about-content {
+        margin: 0;
+    }
+
+    .about-content p{
+        line-height: 1.4;
+        margin-top: 40px;
+        font-size: 1.3em;
+        margin-bottom: 70px;
+    }
+
+    #services {
+        height: auto;
+    }
+
+    .services-heading {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .services-heading h2 {
+        font-size: 2em;
+    }
+
+    .services-heading h4 {
+        font-size: 1em;
+    }
+
+    .services-content{
+        margin-top: 20px;
+    }
+
+    .media-left{
+        display: block;
+        padding: 0;
+    }
+
+    .media-left img{
+        margin-left:100px;
+    }
+
+    .media-body{
+        text-align: center;
+    }
+
+    .media-body p{
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+    #skills{
+        height: auto;
+    }
+
+    .skills-heading{
+        text-align: center;
+    }
+
+    .skills-heading h2 {
+        font-size: 2em;
+    }
+
+    .skills-heading h4 {
+        font-size: 1em;    
+    }
+
+    .skills h4 {
+        font-size: 1em;
+        margin-left:5px; 
+    }
+
+    .skills{
+        margin-top: 50px;
+    }
+
+    .progress{
+      height: 20px;
+      width: 100%;
+    }
+
+    .progress .val {
+      line-height: 20px;
+      font-size: 0.8em;
+      margin: 0 1px 0 0;
+    }
+
+    .media-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .media-body p {
+        margin-bottom: 20px;
+    }
+
+    #contact {
+        height: auto;
+    }
+
+    .contact-box {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .contact-box h2{
+        font-size: 2em;
+    }
+
+    .contact-box p{
+        font-size: 1.3em;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .form-heading h2 {
+        font-size: 2em;
+    }
+
+    .form-heading h4 {
+        font-size: 1em;    
+    }
+
 
 }

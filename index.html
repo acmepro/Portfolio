@@ -1,28 +1,53 @@
 <!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
+<!--<![endif]-->
 
 <head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Jaseel</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/query.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/png" href="img/index.png"/>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" type="image/png" href="img/index.png" />
+
 </head>
 
 <body>
     <header>
-        <div id="nav" class="overlay">
+        <div id="nav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
+            <div class="sidenav-content">
                 <a href="#about">About</a>
                 <a href="#services">Services</a>
                 <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
+            </div>
+                <hr>
+            <div class="nav-social-media">
+                <a href="https://www.facebook.com/mohammedjaseelnalakath" target="_blank" ><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/jaseel_94" target="_blank" ><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jaseelnalakath" target="_blank" ><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/mohammedjaseel" target="_blank" ><i class="fa fa-github"></i></a>
             </div>
         </div>
 
@@ -33,18 +58,12 @@
         <section id="home">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <div class="home-main-text text-center">
-                            <div class="typer-text">
-                                <h1>I'M
-                                    <span class="typer" id="main" data-words="JASEEL.,A FRONT-END DEVELOPER,A UI DEVELOPER." data-colors="#000" data-delay="100" data-deleteDelay="1000"></span>
-                                    <span class="cursor" data-owner="main"></span>
-                                </h1>
-                            </div>
-                            <p class="home-main-para">
-                                I have a passion for web developing and love to create for web and mobile devices. <br>I work for a living, But i live to create some cool stuff.
-                            </p>
-                            <a href="#about" class="button-btn" role="button">KNOW MORE</a>
+                    <div class="col-md-8 col-sm-8">
+                        <div class="home-content">
+                            <h4>WELCOME TO MY PORTFOLIO</h4>
+                            <h1>Hi, Am Jaseel. <br> A front-end Developer, <br> I have a passion for web developing &amp; love to create websites for all type of devices.</h1>
+                            <a href="#form" class="button-primary" role="button">START A PROJECT</a>
+                            <a href="#about" class="button-primary" role="button">KNOW MORE</a>
                         </div>
                     </div>
                 </div>
@@ -55,18 +74,14 @@
     <section id="about">
         <div class="container">
             <div class="row">
-               <div class="custom-heading">
-                    <h2>
-                    <span class="heading-first-letter" data-first-letter="A">
-                        A</span>
-                    <span class="rest-heading">
-                        bout me</span>
-                    </h2>
-               </div>
+                <div class="about-heading">
+                    <h4>HELLO THERE</h4>
+                    <h2>About Me</h2>
+                    <hr>
+                </div>
                 <div class="col-md-12 col-sm-12">
-                    <div class="about-text">
-                        <p>Offering creative design solutions to solve business problems is what I do best. I write in HTML, CSS and Javascript.I like working on scalability, performance, reusability and great user experiences.</p> <br><br> 
-                        <p>As a developer, I write code that conforms to industry standards and semantic best practices. Iam able to transform static artwork into pixel perfect, interactive and fully functional interfaces.</p>
+                    <div class="about-content">
+                        <p>Offering creative design solutions to solve business problems is what I do best. I write in HTML, CSS and Javascript.I like working on scalability, performance, reusability and great user experiences.As a developer, I write code that conforms to industry standards and semantic best practices. Iam able to transform static artwork into pixel perfect, interactive and fully functional interfaces.</p>
                     </div>
                 </div>
             </div>
@@ -76,34 +91,30 @@
     <section id="services">
         <div class="container">
             <div class="row">
-                <div class="custom-heading">
-                    <h2>
-                    <span class="heading-first-letter" data-first-letter="S">
-            S</span>
-                    <span class="rest-heading">
-            ervices</span>
-                </h2>
+                <div class="services-heading">
+                    <h4>WHAT I DO</h4>
+                    <h2>I got something you need to <br>launch and grow your business</h2>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <div class="services-content box-1">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="services-content">
                         <div class="media-left">
-                            <img class="media-img" src="img/icon-1.png">
+                           <img src="img/icon-1.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">Code</h3>
-                            <p class="text-justify">I design in the browser with HTML, CSS and a touch of Javascript. I love coding things from scratch,but i can work with front-end frameworks like Bootstrap, UI Kit etc.</p>
+                            <p>I design in the browser with HTML, CSS and a touch of Javascript. I love coding things from scratch,but i can work with front-end frameworks like Bootstrap, UI Kit etc.</p>
                         </div>
                     </div>
-
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <div class="services-content box-2">
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="services-content">
                         <div class="media-left">
-                            <img class="media-img" src="img/icon-2.png">
+                            <img src="img/icon-2.png">
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">Idea</h3>
-                            <p class="text-justify">I collabrate with cilents and peers to nuture and transform ideas into well thought out design specs. After all,that's where the majority of amazing user experiences start.</p>
+                            <p>I collabrate with cilents and peers to nuture and transform ideas into well thought out design specs. After all,that's where the majority of amazing user experiences start.</p>
                         </div>
                     </div>
                 </div>
@@ -114,13 +125,13 @@
     <section id="skills">
         <div class="container">
             <div class="row">
-                <div class="custom-heading">
-                    <h2>
-                        <span class="heading-first-letter" data-first-letter="T">T</span><span class="rest-heading">echnical skills</span>
-                    </h2>
+                <div class="skills-heading">
+                    <h4>TECHNICAL SKILLS</h4>
+                    <h2>I love what I do, check out<br>my skills.</h2>
+                    <hr>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="skills-left">
+                    <div class="skills left">
                         <h4>HTML</h4>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -144,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="skills-right">
+                    <div class="skills right">
                         <h4>CSS</h4>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -174,63 +185,63 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="contact-box text-center">
-                    <h1>Want to work together or hire me ?</h1>
+               <div class="col-md-12 col-sm-12">
+                    <div class="contact-box text-center">
+                    <h2>Want to work together or hire me ?</h2>
                     <p>I'm currently accepting new projects and would like to hear about yours. <br> Please take a few minutes to tell me about it.</p>
-                    <a href="#form" class="button-btn" role="button">CONTACT</a>
-                    <a href="https://drive.google.com/file/d/101t0ziFizChTVyu8CKutq5iOrI7d18g-/view?usp=sharing" target="_blank" class="button-btn" role="button">RESUME</a>
+                    <a href="#form" class="button-default" role="button">CONTACT</a>
+                    <a href="https://drive.google.com/file/d/1mH617GR32Qq8HfyqPYey4RaN-zBwwSz9/view?usp=sharing" target="_blank" class="button-default" role="button">RESUME</a>
                 </div>
+               </div>
             </div>
         </div>
     </section>
 
 
-<section id="form">
-    <div class="container">
-       <div class="custom-heading">
-            <h2>
-            <span class="heading-first-letter" data-first-letter="S">S</span>
-            <span class="rest-heading">ay hello!</span>
-        </h2>
-       </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <form class="from text-center" method="post" action="#">
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="E-mail (Required)">
-                    </div>
-                    <div class="form-group">
-                        <input type="name" class="form-control" name="name" id="name" placeholder="Full Name (Required)">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" name="message" placeholder="Your Message" style="height:150px"></textarea>
-                    </div>
-                    <input class="button-btn" type="submit" value="SUBMIT">
-                </form>
+    <section id="form">
+        <div class="container">
+            <div class="form-heading">
+                <h4>CONTACT ME</h4>
+                <h2>Reach out for a new project or just <br> say hello</h2>
+                <hr>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="footer">
-                    <div class="map" id="googleMap"></div>
-                        <div class="social-media text-center">
-                            <a href="https://www.facebook.com/mohammedjaseelnalakath"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/jaseel_94"><i class="fa fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/jaseelnalakath"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://github.com/mohammedjaseel"><i class="fa fa-github"></i></a>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <form class="form-part text-center" method="post" action="#">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="E-mail (Required)">
                         </div>
-                        <div class="mail text-center">
-                             <p><a href="mailto:jaseelnalakath@outlook.com?Subject=Hi," target="_top">jaseelnalakath@outlook.com</a></p>
+                        <div class="form-group">
+                            <input type="name" class="form-control" name="name" id="name" placeholder="Full Name (Required)">
                         </div>
-                        <div class="copyright text-center">
-                                <p>Designed by Jaseel.</p>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Your Message" style="height:150px"></textarea>
                         </div>
+                        <input class="button-primary" type="submit" value="SUBMIT">
+                    </form>
                 </div>
             </div>
-
         </div>
-    </div>
-</section>
-<button onclick="topFunction()" id="scrollup"><i class="fa fa-chevron-up"></i></button>
+    </section>
 
+        <footer id="footer">
+            <div class="social-media text-center">
+                <a href="https://www.facebook.com/mohammedjaseelnalakath" target="_blank" ><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/jaseel_94" target="_blank" ><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jaseelnalakath" target="_blank" ><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/mohammedjaseel" target="_blank" ><i class="fa fa-github"></i></a>
+            </div>
+            <div class="mail text-center">
+                <p><a href="mailto:jaseelnalakath@outlook.com?Subject=Hi," target="_top">jaseelnalakath@outlook.com</a></p>
+            </div>
+            <div class="copyright text-center">
+                 <p>Designed by Jaseel.</p>
+            </div>
+        </footer>
+    <button onclick="topFunction()" id="scrollup"><i class="fa fa-chevron-up"></i></button>
+
+    <!-- script
+    ================================================== -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/typer.js"></script>
@@ -239,46 +250,81 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0wpDdx_FE-6HYvFwx2osOvCHiARhAD7I&callback=myMap"></script>
 
     <script>
-    window.sr = ScrollReveal();
-        sr.reveal('.home-main-para', {
-            duration: 1500,
-            origin: 'right',
+        window.sr = ScrollReveal();
+        sr.reveal('.home-content', {
+            duration: 2000,
+            origin: 'bottom',
             distance: '500px'
         });
 
-        sr.reveal('.custom-heading', {
+        sr.reveal('.about-heading', {
             duration: 2000,
-            origin: 'left',
+            origin: 'bottom',
             distance: '500px',
             scale: 0.1
         });
 
-        sr.reveal('.contact-box h1', {
+        sr.reveal('.about-content', {
+            duration: 3000,
+            origin: 'bottom',
+            distance: '500px'
+        });
+
+        sr.reveal('.services-heading', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '500px',
+            scale: 0.1
+        });
+
+          sr.reveal('.services-content', {
+            duration: 3000,
+            origin: 'bottom',
+            distance: '500px'
+        });
+
+          sr.reveal('.skills-heading', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '500px',
+            scale: 0.1
+        });
+
+          sr.reveal('.skills', {
+            duration: 3000,
+            origin: 'bottom',
+            distance: '500px',
+            scale: 0.1
+        });
+
+
+        sr.reveal('.contact-box h2', {
             duration: 2000,
             origin: 'left',
-            distance: '500px'
+            distance: '200px',
+            scale: 0.1
         });
 
         sr.reveal('.contact-box p', {
             duration: 2000,
             origin: 'right',
-            distance: '500px'
-        });
-
-        sr.reveal('.box-1', {
-            duration: 1500,
-            origin: 'left',
-            distance: '500px',
+            distance: '200px',
             scale: 0.1
         });
 
-        sr.reveal('.box-2', {
-            duration: 1500,
-            origin: 'right',
-            distance: '500px',
+         sr.reveal('.form-heading', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px',
             scale: 0.1
         });
 
+          sr.reveal('.form-part', {
+            duration: 3000,
+            origin: 'bottom',
+            distance: '300px'
+        });
     </script>
 </body>
+
 </html>
