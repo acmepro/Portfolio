@@ -3,7 +3,7 @@
 ==================*/
 
 function openNav() {
-    document.getElementById("nav").style.width = "250px";
+    document.getElementById("nav").style.width = "300px";
 }
 
 function closeNav() {

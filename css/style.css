@@ -145,26 +145,37 @@ hr {
 
 .sidenav-content {
     font-family: "Montserrat", sans-serif;
-    margin-top: 100px;
+    margin-top: 50px;
+}
+
+.sidenav-heading{
+    padding: 10px 10px 50px 32px;
+    text-transform: uppercase;
+    color: #39b54a; 
 }
 
 .sidenav-content a {
-    padding: 8px 8px 8px 32px;
+    padding: 10px 10px 10px 32px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.5em;
     color: #fff;
     font-weight: 600;
     display: block;
     transition: 0.3s;
 }
 
-.sidenav .closebtn {
+.closebtn {
     position: absolute;
     top: 0;
+    color: #fff;
     right: 20px;
     margin: 10px;
-    font-size: 3.75em;
+    font-size: 2em;
+}
 
+.closebtn:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 .nav-social-media {
@@ -195,7 +206,7 @@ header {
 
 
 #home {
-    height: 100vh;
+    height: auto;
 
 }
 
@@ -206,6 +217,7 @@ header {
 
 .home-content h1 {
     font-size: 4em;
+    line-height: 1.5;
     font-weight: 700;
     color: #fff;
 
