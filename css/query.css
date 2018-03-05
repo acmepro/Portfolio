@@ -221,7 +221,7 @@
     }
 
     .media-left img{
-        margin-left:260px;
+        margin-left:220px;
     }
 
     .media-body{
@@ -400,7 +400,10 @@
     }
 
     .media-left img{
-        margin-left:140px;
+        margin-left:110px;
+        padding: 0;
+        width: 80px;
+        height: 80px;
     }
 
     .media-body{
