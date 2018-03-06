@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,500,600,700');
 
 /*======================
         GLOBAL
@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: "Lora", serif;
+    font-family: "Lato", serif;
     font-style: normal;
     font-weight: normal;
     overflow-x: hidden;
@@ -145,7 +145,7 @@ hr {
 }
 
 .sidenav-content {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Lato", sans-serif;
     margin-top: 30px;
 }
 
@@ -196,6 +196,12 @@ hr {
     font-size: 1.5em;
     margin: 10px;
     text-align: center;
+    transition: 0.1s;
+}
+
+.nav-social-media a:hover {
+   -webkit-transform: scale(1.5);
+   transform: scale(1.5); 
 }
 
 
