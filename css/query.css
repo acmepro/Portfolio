@@ -333,9 +333,9 @@
     }
 
     .home-content{
-       margin-top: 100px;
-       padding:0;
-       text-align: center; 
+       padding: 100px 0 50px 0;
+       text-align: center;
+
     }
 
     .home-content h1 {
@@ -373,6 +373,7 @@
         margin-top: 40px;
         font-size: 1.3em;
         margin-bottom: 70px;
+        text-align: center;
     }
 
     #services {
@@ -414,6 +415,7 @@
     .media-body p{
         padding: 10px;
         font-size: 1.2em;
+        text-align: justify;
     }
 
     #skills{
@@ -476,6 +478,7 @@
 
     .contact-box p{
         font-size: 1.3em;
+        text-align: center;
     }
 
     .form-control {

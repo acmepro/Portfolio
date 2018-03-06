@@ -39,7 +39,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #39b54a;
+    color: #4497CF;
 }
 
 a:hover,
@@ -64,7 +64,7 @@ hr {
     font-size: 0.875em;
     background-color: transparent;
     padding: 10px 20px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     margin: 5px;
     text-decoration: none;
     transition: 1s;
@@ -72,8 +72,9 @@ hr {
 }
 
 .button-primary:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: #4497CF;
+    color: #fff;
+    border: 2px solid #4497CF;
     text-decoration: none;
 }
 
@@ -107,7 +108,7 @@ hr {
     right: 30px;
     border: none;
     outline: none;
-    background-color: #333;
+    background-color:#4497CF;
     color: #fff;
     padding: 15px;
     border-radius: 100px;
@@ -151,7 +152,7 @@ hr {
 .sidenav-heading{
     padding: 10px 10px 30px 32px;
     text-transform: uppercase;
-    color: #39b54a; 
+    color: #4497CF; 
 }
 
 .sidenav-content a {
@@ -162,6 +163,10 @@ hr {
     font-weight: 600;
     display: block;
     transition: 0.3s;
+}
+
+.sidenav-content a:hover {
+   color: #4497CF;
 }
 
 .closebtn {
@@ -197,7 +202,7 @@ hr {
 ========================*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/hero-bg.jpg');
+    background-image: url('../img/hero-bg.png');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,8 +216,7 @@ header {
 }
 
 .home-content {
-    margin: 60px 0 120px 0;
-    word-spacing: 2px;
+    padding: 60px 60px 120px 0;
 }
 
 .home-content h1 {
@@ -224,7 +228,7 @@ header {
 }
 
 .home-content h4 {
-    color: #555555;
+    color: #DED8E9;
 }
 
 /*======================
@@ -233,7 +237,7 @@ header {
 
 #about {
     height: 100vh;
-    background-color:#39b54a;
+    background-color:#4497CF;
 }
 
 .about-heading {
@@ -271,7 +275,7 @@ header {
 
 #services {
     height: auto;
-    background:#E6E6E6;
+    background:#fff;
 }
 
 .services-heading {
@@ -282,7 +286,7 @@ header {
 .services-heading h4 {
     word-spacing: 2px;
     font-weight: 700;
-    color: #39B54A;
+    color: #4497CF;
 }
 
 .services-heading h2 {
@@ -319,7 +323,7 @@ header {
 
 #skills {
     height: 100vh;
-    background: #111111;
+    background: #f2f2f2;
 }
 
 .skills-heading {
@@ -329,15 +333,16 @@ header {
 
 .skills-heading h2 {
     font-size: 3em;
-    color: #fff;
+    color: #000;
+    font-weight: 700;
 }
 
 .skills-heading h4 {
-    color: #39B54A;
+    color: #4497CF;
 }
 
 .skills h4 {
-    color: #fff;
+    color: #000;
 }
 
 .skills {
@@ -347,7 +352,7 @@ header {
 
 
 .progress {
-    height: 35px;
+    height: 25px;
     border-radius: 0;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
@@ -357,13 +362,13 @@ header {
 .progress .val {
     float: right;
     font-weight: 700;
-    line-height: 35px;
+    line-height: 25px;
     margin: 0 20px 0 0;
 }
 
 .progress-bar {
     text-align: left;
-    background-color: #959595;
+    background-color: #4497CF;
     transition-duration: 5s;
 }
 
@@ -372,7 +377,7 @@ header {
 ========================*/
 
 #contact {
-    background: #E6E6E6;
+    background: #fff;
     height: 100vh;
 }
 
@@ -385,7 +390,6 @@ header {
     word-spacing: 2px;
     font-weight: 700;
     font-size: 4em;
-    color: #000;
 }
 
 
@@ -425,7 +429,7 @@ header {
 }
 
 .form-heading h4 {
-    color: #39B54A;
+    color: #4497CF;
 }
 
 .form-control {
@@ -433,7 +437,7 @@ header {
     height: 50px;
     font-family: "Montserrat"; 
     border:0;
-    border-bottom: 1px solid #39B54A;
+    border-bottom: 2px solid #fff;
     border-radius: 2px;
     width: 80%;
     padding:10px;
@@ -451,10 +455,10 @@ header {
 ========================*/
 
 #footer {
-    color: #fff;
+    color: #000;
     padding: 10px;
-    height: 120px;
-    background-color: #111111;
+    height: 145px;
+    background-color: #E6E6E6;
 }
 
 
@@ -466,7 +470,7 @@ header {
 .mail a {
     font-size: 1em;
     padding: 10px;
-    color: #fff;
+    color: #000;
 }
 
 .mail a:hover {
@@ -479,11 +483,16 @@ header {
 }
 
 .social-media a {
-    color: #fff;
+    color: #000;
     display: inline;
     width: 35px;
     height: 35px;
     font-size: 1.7em;
     margin: 10px;
     padding-bottom: 10px;
+    transition: 1s;
+}
+
+.social-media a:hover {
+    color: #4497CF;
 }
