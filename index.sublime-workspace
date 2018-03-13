@@ -1,0 +1,743 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"col",
+				"col-xs-12"
+			],
+			[
+				"texr",
+				"text-transform"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"skill",
+				"skills-heading"
+			],
+			[
+				"services",
+				"services-heading"
+			],
+			[
+				"abou",
+				"about-content"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"ju",
+				"justify"
+			],
+			[
+				"mag",
+				"margin"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"PADDING",
+				"padding-bottom"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tetx",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"word",
+				"word-spacing"
+			],
+			[
+				"rgb",
+				"rgb()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wor",
+				"word-spacing"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
+				"m",
+				"mx-auto"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"te",
+				"target\tAttr"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"num",
+				"number2"
+			],
+			[
+				"about",
+				"about"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"text-de",
+				"text-decoration-style"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"bodr",
+				"border-bottom"
+			],
+			[
+				"butt",
+				"button-btn"
+			],
+			[
+				"FFF",
+				"ffffff"
+			],
+			[
+				"FF",
+				"ffffff"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"overflow",
+				"overflow-x"
+			],
+			[
+				"skills",
+				"skills"
+			],
+			[
+				"sti",
+				"sticky"
+			],
+			[
+				"pro",
+				"progressbar"
+			],
+			[
+				"medi",
+				"media-right"
+			],
+			[
+				"bor",
+				"border-left-style"
+			],
+			[
+				"bod",
+				"border-top"
+			],
+			[
+				"b",
+				"border-radius"
+			],
+			[
+				"se",
+				"services"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"MARGIN",
+				"margin-left"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"main",
+				"main-text"
+			],
+			[
+				"SKILLS",
+				"skills"
+			],
+			[
+				"marig",
+				"margin-top"
+			],
+			[
+				"magin",
+				"margin-top"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"COL",
+				"col-sm-6"
+			],
+			[
+				"co",
+				"container"
+			],
+			[
+				"but",
+				"button_1"
+			],
+			[
+				"e",
+				"e8491d"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"background-cl",
+				"background-color"
+			],
+			[
+				"set",
+				"setUserName"
+			],
+			[
+				"my",
+				"myImage"
+			],
+			[
+				"firefox",
+				"firefox-icon"
+			],
+			[
+				"FONT",
+				"font-weight"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"a",
+				"align-items"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"uk-ma",
+				"uk-margin-small-top \tUIkit class"
+			],
+			[
+				"uk-margin-top",
+				"uk-margin-large-top \tUIkit class"
+			],
+			[
+				"uk-padding-",
+				"uk-padding-small \tUIkit class"
+			],
+			[
+				"uk-position",
+				"uk-position-center \tUIkit class"
+			],
+			[
+				"uk-ali",
+				"uk-align-left \tUIkit class"
+			],
+			[
+				"uk-padd",
+				"uk-padding-small \tUIkit class"
+			],
+			[
+				"uk-padding-le",
+				"uk-padding-remove-vertical \tUIkit class"
+			],
+			[
+				"uk-pad",
+				"uk-padding-small \tUIkit class"
+			],
+			[
+				"uk-mar",
+				"uk-margin-medium \tUIkit class"
+			],
+			[
+				"WORD",
+				"word-spacing"
+			],
+			[
+				"uk-positi",
+				"uk-position-left \tUIkit class"
+			],
+			[
+				"uk-posi",
+				"uk-position-right \tUIkit class"
+			],
+			[
+				"uk-po",
+				"uk-position-right \tUIkit class"
+			],
+			[
+				"fla",
+				"float"
+			],
+			[
+				"uk-al",
+				"uk-align-center"
+			],
+			[
+				"re",
+				"research"
+			],
+			[
+				"FO",
+				"footer"
+			],
+			[
+				"F",
+				"footer"
+			],
+			[
+				"fon-s",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: Remove Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"Package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Package Control",
+				"Install Package Control"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jaseel/Downloads/instant/instant/index.html",
+		"/C/xampp/htdocs/Portfolio/js/main.js",
+		"/C/Users/Jaseel/Downloads/glint/css/main.css",
+		"/C/Users/Jaseel/Downloads/glint/index.html",
+		"/C/Users/Jaseel/Desktop/Portfolio/index.html",
+		"/C/Users/Jaseel/Documents/Projects/Omnifood/resources/css/style.css",
+		"/C/xampp/htdocs/Portfolio/index.html",
+		"/C/Users/Jaseel/Documents/Projects/Lavit/style.css",
+		"/C/Users/Jaseel/Documents/Projects/Lavit/index.html",
+		"/C/Users/Jaseel/Downloads/templated-industrious/assets/css/main.css",
+		"/C/xampp/htdocs/Portfolio/css/style.css",
+		"/C/Users/Jaseel/Documents/Projects/Angled Div/style.css",
+		"/C/Users/Jaseel/Documents/Projects/Angled Div/index.html",
+		"/C/Users/Jaseel/Documents/Projects/Ducati/style.css",
+		"/C/Users/Jaseel/Documents/Projects/Ducati/index.html",
+		"/C/Users/Jaseel/Documents/Projects/Skewed 1/style.css",
+		"/C/Users/Jaseel/Documents/Projects/Skewed 1/index.html",
+		"/C/Users/Jaseel/Documents/Signup Form/style.css",
+		"/C/Users/Jaseel/Documents/Signup Form/index.html",
+		"/C/xampp/htdocs/Portfolio/css/query.css",
+		"/C/Users/Jaseel/Documents/Canvas/index.html",
+		"/C/Users/Jaseel/Documents/Canvas/canvas.js",
+		"/C/xampp/htdocs/Portfolio/contact.php",
+		"/C/Users/Jaseel/Desktop/Portfolio Template/Fastlanding/index.html",
+		"/C/Users/Jaseel/Desktop/Portfolio/css/style.css",
+		"/C/Users/Jaseel/Desktop/Portfolio/js/main.js",
+		"/C/Users/Jaseel/Desktop/Portfolio/js/scrollreveal.min.js",
+		"/C/Users/Jaseel/Desktop/Portfolio/css/query.css",
+		"/C/Users/Jaseel/Documents/Templates/Meteor/index.html",
+		"/C/Users/Jaseel/Documents/Caferider/css/style.css",
+		"/C/Users/Jaseel/Documents/Caferider/index.html",
+		"/C/Users/Jaseel/Videos/Various/ps to html tuts/Contact Form/index.html",
+		"/C/Users/Jaseel/Desktop/Portfolio Template/New folder/style.css",
+		"/C/Users/Jaseel/Desktop/Portfolio Template/New folder/index.html",
+		"/C/Users/Jaseel/Documents/Projects/Parallax Simple Website/css/style.css",
+		"/C/Users/Jaseel/Documents/Projects/acme/about.html",
+		"/C/Users/Jaseel/Documents/Projects/acme/css/style.css",
+		"/C/Users/Jaseel/Desktop/Projects/codeblog.html",
+		"/C/Users/Jaseel/Downloads/hanoi-website-mockup-master/hanoi-website-mockup-master/index.html",
+		"/C/xampp/htdocs/Portfolio/js/animation.js",
+		"/C/Users/Jaseel/Desktop/Portfolio/js/animation.js",
+		"/C/Users/Jaseel/Desktop/Portfolio/.gitignore",
+		"/C/Users/Jaseel/Downloads/responsive-full-background-image-master/responsive-full-background-image-master/responsive-full-background-image.css",
+		"/C/Users/Jaseel/Documents/Projects/Boeplay A1/index.html",
+		"/C/xampp/htdocs/Portfolio/js/app.js",
+		"/C/Users/Jaseel/Downloads/freebie-footer-templates/footer-distributed.html",
+		"/C/Users/Jaseel/Downloads/freebie-footer-templates/css/footer-distributed.css",
+		"/C/Users/Jaseel/Downloads/particles.js-master/particles.js-master/demo/css/style.css",
+		"/C/xampp/htdocs/Portfolio/js/npm.js",
+		"/C/xampp/htdocs/Portfolio/rough.html",
+		"/C/xampp/htdocs/Portfolio/js/typer.js",
+		"/C/xampp/htdocs/Portfolio/css/queries.css",
+		"/C/Users/Jaseel/Desktop/myapp/log.txt",
+		"/C/Users/Jaseel/Desktop/myapp/dir2/app2.js",
+		"/C/Users/Jaseel/Desktop/myapp/dir1/app1.js",
+		"/C/Users/Jaseel/Desktop/myapp/.gitignore",
+		"/C/xampp/htdocs/New folder/css/style.css",
+		"/C/xampp/htdocs/New folder/index.html",
+		"/C/Users/Jaseel/Documents/Projects/Omnifood/index.html",
+		"/C/Users/Jaseel/Downloads/DecorativeBackgrounds/DecorativeBackgrounds/css/demo6.css",
+		"/C/Users/Jaseel/Downloads/DecorativeBackgrounds/DecorativeBackgrounds/index6.html",
+		"/C/Users/Jaseel/Downloads/CreativeButtons/CreativeButtons/index.html",
+		"/C/Users/Jaseel/Downloads/CreativeButtons/CreativeButtons/css/component.css",
+		"/C/Users/Jaseel/Downloads/CreativeLinkEffects/CreativeLinkEffects/css/component.css",
+		"/C/Users/Jaseel/Downloads/CreativeLinkEffects/CreativeLinkEffects/index.html",
+		"/C/Users/Jaseel/Desktop/portfolio/index.html",
+		"/C/Users/Jaseel/Desktop/content architecture/index.html",
+		"/C/Users/Jaseel/Desktop/content architecture/css/style.css",
+		"/C/Users/Jaseel/Desktop/acme - Copy/index.html",
+		"/C/Users/Jaseel/Desktop/acme - Copy/services.html",
+		"/C/Users/Jaseel/Desktop/acme - Copy/about.html",
+		"/C/Users/Jaseel/Desktop/acme - Copy/css/style.css",
+		"/C/Users/Jaseel/Documents/index.html",
+		"/C/Users/Jaseel/Documents/nj designs/css/style.css",
+		"/C/Users/Jaseel/Desktop/New folder/html/index.html",
+		"/C/Users/Jaseel/Desktop/php/enteringinfo.html",
+		"/C/Users/Jaseel/Desktop/php/learnphp.php",
+		"/C/xampp/htdocs/Event/assets/css/style.css",
+		"/C/xampp/htdocs/event2/css/style.css",
+		"/C/Users/Jaseel/Desktop/event2/css/style.css",
+		"/C/Users/Jaseel/Desktop/event2/index.html",
+		"/C/Users/Jaseel/Documents/PixiE/projects/Boeplay A1/css/style.css",
+		"/C/Users/Jaseel/Downloads/Made-Agency-Portfolio-Free-Bootstrap-Temmplate/contact.html",
+		"/C/Users/Jaseel/Downloads/Made-Agency-Portfolio-Free-Bootstrap-Temmplate/assets/css/style.css",
+		"/C/Users/Jaseel/Downloads/Made-Agency-Portfolio-Free-Bootstrap-Temmplate/index.html",
+		"/C/Users/Jaseel/Downloads/Made-Agency-Portfolio-Free-Bootstrap-Temmplate/about.html",
+		"/C/Users/Jaseel/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/xampp/htdocs/biophoton/css/uikit.min.css",
+		"/C/Users/Jaseel/Downloads/Made-Agency-Portfolio-Free-Bootstrap-Temmplate/assets/css/slick/slick-theme.css",
+		"/C/Users/Jaseel/Downloads/Made-Agency-Portfolio-Free-Bootstrap-Temmplate/assets/css/slick/slick.js",
+		"/C/Users/Jaseel/Documents/biophoton/index.html",
+		"/C/Users/Jaseel/Documents/Profecy/index.html",
+		"/C/Users/Jaseel/Downloads/bbs-colorlib/bbs/index.html",
+		"/C/Users/Jaseel/Documents/biophoton/radientmeter.html",
+		"/C/Users/Jaseel/Documents/biophoton/products.html",
+		"/C/Users/Jaseel/Documents/biophoton/iwcb.html",
+		"/C/Users/Jaseel/Documents/biophoton/led.html",
+		"/C/Users/Jaseel/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Jaseel/Documents/muhammedfaheem.github.io-master/faheem/index.html",
+		"/C/Users/Jaseel/Downloads/parallax-template/parallax-template/css/style.css",
+		"/C/Users/Jaseel/Desktop/index.html",
+		"/C/Users/Jaseel/Documents/PixiE/projects/Omnifood/resources/css/style.css",
+		"/C/Users/Jaseel/Documents/PixiE/projects/Omnifood/index.html",
+		"/C/Users/Jaseel/Documents/PixiE/projects/Parallax Simple Website/css/style.css",
+		"/C/Users/Jaseel/Documents/PixiE/projects/Parallax Simple Website/index.html",
+		"/C/Users/Jaseel/Downloads/parallax-template/parallax-template/index.html",
+		"/C/Users/Jaseel/Documents/PixiE/projects/Overlango/Overlango.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

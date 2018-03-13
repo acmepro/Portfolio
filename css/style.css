@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,500,600,700');
-
 /*======================
         GLOBAL
 ========================*/
 
-*{
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,500,600,700');
+
+* {
     margin: 0;
     padding: 0;
 }
@@ -36,28 +36,57 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-a:hover,
-a:focus,
-a:active {
-    color: #4497CF;
-}
 
 a:hover,
 a:active {
     outline: 0;
+    text-decoration: none;
 }
 
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    outline: none;
+}
 
-hr {
-    width: 50%;
-    margin: auto;
-    padding: 0;
+.form-control {
+    height: 50px;
+    font-family: "Montserrat";
+    border: 0;
+    border-bottom: 2px solid #4497CF;
+    border-radius: 0;
+    width: 80%;
+    padding: 10px;
+    color: #fff;
+    margin: 30px auto;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-bottom: 3px solid #fff;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .button-primary {
     display: inline-block;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
     border-radius: 0;
     color: #fff;
     font-weight: 700;
@@ -67,6 +96,7 @@ hr {
     border: 2px solid #fff;
     margin: 5px;
     text-decoration: none;
+    -webkit-transition: 1s;
     transition: 1s;
 
 }
@@ -80,8 +110,6 @@ hr {
 
 .button-default {
     display: inline-block;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
     border-radius: 0;
     color: #000;
     font-size: 0.875em;
@@ -91,6 +119,7 @@ hr {
     border: 2px solid #000;
     margin: 5px;
     text-decoration: none;
+    -webkit-transition: 1s;
     transition: 1s;
 
 }
@@ -108,7 +137,7 @@ hr {
     right: 30px;
     border: none;
     outline: none;
-    background-color:#4497CF;
+    background-color: #4497CF;
     color: #fff;
     padding: 15px;
     border-radius: 100px;
@@ -140,6 +169,7 @@ hr {
     right: 0;
     background-color: #0c0c0c;
     overflow-x: hidden;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     padding-top: 60px;
 }
@@ -149,10 +179,10 @@ hr {
     margin-top: 30px;
 }
 
-.sidenav-heading{
+.sidenav-heading {
     padding: 10px 10px 30px 32px;
     text-transform: uppercase;
-    color: #4497CF; 
+    color: #4497CF;
 }
 
 .sidenav-content a {
@@ -162,13 +192,14 @@ hr {
     color: #fff;
     font-weight: 600;
     display: block;
+    -webkit-transition: 0.9s;
     transition: 0.9s;
 }
 
 .sidenav-content a:hover {
-   color: #4497CF;
-   -webkit-transform: scale(1.2);
-   transform: scale(1.2); 
+    color: #4497CF;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .closebtn {
@@ -196,12 +227,13 @@ hr {
     font-size: 1.5em;
     margin: 10px;
     text-align: center;
-    transition: 0.1s;
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
 }
 
 .nav-social-media a:hover {
-   -webkit-transform: scale(1.5);
-   transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 
@@ -245,7 +277,7 @@ header {
 
 #about {
     height: 100vh;
-    background-color:#4497CF;
+    background-color: #4497CF;
 }
 
 .about-heading {
@@ -273,7 +305,7 @@ header {
     font-size: 2em;
     text-align: center;
     word-spacing: 2px;
-    font-weight: 500;
+    font-weight: 600;
     color: #000;
 }
 
@@ -283,7 +315,7 @@ header {
 
 #services {
     height: auto;
-    background:#fff;
+    background: #fff;
 }
 
 .services-heading {
@@ -314,6 +346,11 @@ header {
     font-size: 1.5em;
     word-spacing: 2px;
     color: #555555;
+    font-weight: 600;
+}
+
+.media-body h3 {
+    font-weight: 700;
 }
 
 .media-left img {
@@ -350,6 +387,7 @@ header {
 }
 
 .skills h4 {
+    font-weight: 600;
     color: #000;
 }
 
@@ -361,10 +399,7 @@ header {
 
 .progress {
     height: 25px;
-    border-radius: 0;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.45);
+
 }
 
 .progress .val {
@@ -377,6 +412,7 @@ header {
 .progress-bar {
     text-align: left;
     background-color: #4497CF;
+    -webkit-transition-duration: 5s;
     transition-duration: 5s;
 }
 
@@ -407,6 +443,7 @@ header {
     text-align: center;
     word-spacing: 2px;
     padding-bottom: 10px;
+    font-weight: 600;
 }
 
 
@@ -418,7 +455,8 @@ header {
     padding-bottom: 50px;
     min-height: 500px;
     background: #111111;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('../img/footer-bg.png');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url('../img/footer-bg.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/footer-bg.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -428,7 +466,7 @@ header {
 .form-heading {
     text-align: center;
     margin-top: 100px;
-    
+
 }
 
 .form-heading h2 {
@@ -440,50 +478,39 @@ header {
     color: #4497CF;
 }
 
-.form-control {
-    background:transparent; 
-    height: 50px;
-    font-family: "Montserrat"; 
-    border:0;
-    border-bottom: 2px solid #4497CF;
-    border-radius: 2px;
-    width: 80%;
-    padding:10px;
-    color: #fff;
-    margin: 30px auto;
-    font-weight: 600;
-}
-
-.form-control:focus { 
-   box-shadow: none !important;
-   border-bottom: 2px solid #fff;
-}
-
 /*======================
        FOOTER
 ========================*/
 
 #footer {
-    color: #000;
+    color: #fff;
     padding: 10px;
-    height: 145px;
-    background-color: #E6E6E6;
+    height: auto;
+    background-color: #4497CF;
 }
 
 
 .copyright p {
-    font-size: 0.875em;
-    margin: 10px 10px;
+    margin: 10px 5px;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.copyright a:hover {
+    color: blue;
 }
 
 .mail a {
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 10px;
-    color: #000;
+    color: #fff;
 }
 
 .mail a:hover {
     text-decoration: none;
+    color: blue;
 }
 
 .social-media {
@@ -492,16 +519,23 @@ header {
 }
 
 .social-media a {
-    color: #000;
+    color: #fff;
     display: inline;
     width: 35px;
     height: 35px;
     font-size: 1.7em;
-    margin: 10px;
-    padding-bottom: 10px;
-    transition: 1s;
+    padding: 10px;
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
 }
 
 .social-media a:hover {
-    color: #4497CF;
+    color: blue;
+}
+
+.example {
+    display: grid;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
 }
